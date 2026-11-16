@@ -6,17 +6,17 @@ const routers = [
     children: [
       {
         path: "about",
-        name: "About",
+        name: "adminAbout",
         component: () => import("@/page/backend/about/index.vue"),
       },
       {
         path: "news",
-        name: "News",
+        name: "adminNews",
         component: () => import("@/page/backend/news/index.vue"),
       },
       {
         path: "contact",
-        name: "Contact",
+        name: "adminContact",
         component: () => import("@/page/backend/contact/index.vue"),
       },
     ],
