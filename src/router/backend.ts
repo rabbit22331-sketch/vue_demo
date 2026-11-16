@@ -1,7 +1,7 @@
 import backLayout from "@/layout/backendLayout.vue";
 const routers = [
   {
-    path: "/admim",
+    path: "/admin",
     component: backLayout,
     children: [
       {
@@ -32,3 +32,5 @@ const routers = [
     component: () => import("@/page/backend/login/forget.vue"),
   },
 ];
+
+export default routers;
