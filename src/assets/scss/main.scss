@@ -1,0 +1,7 @@
+@use "../css/reset.css";
+@use "./setting" as *;
+body {
+  font-family: $mainFont;
+  color: #000;
+  font-size: $h6Size;
+}

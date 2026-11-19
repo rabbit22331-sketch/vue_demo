@@ -21,7 +21,7 @@ router.afterEach((to) => {
     return;
   }
   const seo = to.meta.seo;
-  document.title = seo.title;
+  document.title = meta.title;
   updateMeta("description", seo.description);
   updateMeta("keywords", seo.keywords);
 });

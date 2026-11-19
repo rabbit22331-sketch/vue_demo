@@ -36,7 +36,7 @@ const routers = [
         name: "News",
         component: () => import("@/page/frontend/news/index.vue"),
         meta: {
-          title: "最新消息列表",
+          title: "最新消息",
           menu: true,
           seo: {
             keywords: "最新消息列表,vue demo",

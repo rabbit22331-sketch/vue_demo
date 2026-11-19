@@ -21,3 +21,18 @@ const menuList = router.getRoutes().filter((router) => {
     </div>
   </header>
 </template>
+<style scoped lang="scss">
+.wrap {
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuList {
+  display: flex;
+  gap: 20px;
+  .menuItem {
+    text-decoration: none;
+  }
+}
+</style>
