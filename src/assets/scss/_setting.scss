@@ -8,3 +8,10 @@ $h3Size: 24px;
 $h4Size: 20px;
 $h5Size: 18px;
 $h6Size: 16px;
+@mixin hover {
+  @media (min-width: 1024px) {
+    &:hover {
+      @content;
+    }
+  }
+}

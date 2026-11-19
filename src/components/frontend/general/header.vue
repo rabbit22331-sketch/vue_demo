@@ -32,7 +32,10 @@ const menuList = router.getRoutes().filter((router) => {
   display: flex;
   gap: 20px;
   .menuItem {
-    text-decoration: none;
+    color: $secondColor;
+    @include hover {
+      color: $mainColor;
+    }
   }
 }
 </style>
